@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import { gutter } from '../../styles/Variable';
 import hero_img from '../../assets/images/hero_img.png';
 
-const PortfolioHeros = styled.article`
+const PortfolioHeros = styled.section`
     padding-top: 32px;
 
     .hero-title {
@@ -23,9 +22,6 @@ const PortfolioHeros = styled.article`
     }
 
     .hero-img {
-        position: relative;
-        left: -${gutter};
-        width: calc(100% + ${gutter} * 2);
         height: 276px;
         margin-top: 10px;
         background: url(${hero_img}) right center/375px no-repeat;
@@ -40,9 +36,7 @@ const PortfolioHeros = styled.article`
             font-weight: 700;
         }
 
-        figure {
-            
-        }
+        figure {}
     }
 `;
 

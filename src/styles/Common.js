@@ -30,6 +30,11 @@ export const Headers = styled.section`
     margin-left: -${gutter};
     background: white;
 
+    ${props => props.type === 2 && `
+        width: 100%;
+        margin-left: 0;
+    `}
+
     > .left-button {
         position: absolute;
         top: 0;
