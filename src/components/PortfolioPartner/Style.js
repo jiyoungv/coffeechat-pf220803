@@ -130,7 +130,7 @@ const PortfolioPartners = styled.section`
             border: 1px solid #E0326E;
             border-left: 0;
             border-radius: 0px 4px 4px 0px;
-            line-height: 18px;
+            line-height: 20px;
         }
     }
 
